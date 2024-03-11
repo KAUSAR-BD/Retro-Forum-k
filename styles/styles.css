@@ -1,0 +1,43 @@
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.search-container {
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+  }
+  .search-input {
+    padding: 10px 40px 10px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    width: 400px; 
+  }
+  .search-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 15px; 
+    background-color: #797DFC;
+    color: white;
+    border: none;
+    border-radius: 46px;
+    cursor: pointer;
+    outline: none;
+  }
+  .search-button:hover {
+    background-color: #555ad4;
+  }
